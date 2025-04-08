@@ -21,7 +21,7 @@ h1{
 }
 
 body{
-    background-image: url(../img/Piedra-papel-o-tijera_350x150.jpg); /* .. para salir de carpeta css i ahí ya a carpeta img/...*/
+    background-image: linear-gradient(#cccccc3d,#cccccc3d), url(../img/Piedra-papel-o-tijera_350x150.jpg); /* .. para salir de carpeta css i ahí ya a carpeta img/...*/
     display: flex;
     flex-direction: column;
     justify-content: center;    /*eje horizontal*/
@@ -91,7 +91,10 @@ header{
     padding: 1rem 2rem 1rem;
     text-align: center;
 }
-#imagen{
+#divImagen{
     width: 100%;
     display: block;
+    img{
+        width: 100%;
+    }
 }
