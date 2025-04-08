@@ -87,7 +87,9 @@ header{
     }
 }
 #respuesta{
+    display: block;
     padding: 1rem 2rem 1rem;
+    text-align: center;
 }
 #imagen{
     width: 100%;
